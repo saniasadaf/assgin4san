@@ -1,149 +1,127 @@
-*{
-
+* {
     margin: 0;
     padding: 0;
-    box-sizing:  border-box;
-
-
+    box-sizing: border-box;
 }
 
- .box{
-    width: 52%;
+.box {
+    width: 50%;
     height: 58vh;
-    background-color: hsl(207, 33%, 95%);
-    float:right;
+    background:   hsl(207, 33%, 95%);
+    float: right;
     border-bottom-left-radius: 50px;
-       
-} 
+}
 
-
-
-.head{
+.head {
     display: flex;
-     justify-content: space-between;
-     padding-top: 10px
+    justify-content: space-between;
+    padding-top: 30px;
 }
-.fa-bars{
+
+.fa-bars {
     font-size: 30px;
-    margin-left: 56%;
-  
+    margin-right: -85%;
 }
-.logo{
-    
-    margin-left: 100%;
+
+.logo {
+    margin-left: 20px;
 }
-.image1{
-  position: absolute;
-   top: 100px;
-   height: 35vh;
-   width: 152%;
-   right: -175px;
-   overflow-x: hidden;
-  
+
+.image1 {
+    width: 154%;
+    position: absolute;
+    top: 100px;
+    right: -175px;
+    height: 35vh;
+    overflow-x:hidden
 
 }
- 
+
 .button1 {
     position: absolute;
-    top:390px;
-    margin-left:5%;
+    top: 373px;
+    margin-left: 5%;
     background-color: black;
-    width: 70px;
-    height: 30px;
+    color: white;
+    font-size: 16px;
+    width: 55px;
+    height: 26px;
     border-radius: 20px;
     border: none;
-    color: white;
-    font-size: 20px;
-
+    font-family: "barlow condensed";
 }
-.text1{
+
+.text1 {
     position: absolute;
-    top: 394px;
+    top: 377px;
+    left: 26%;
     color: grey;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: "barlow condensed";
     word-spacing: 5px;
-    margin-left: 28%;
-    font-family: "Barlow condensed";
-    letter-spacing: 5px;
-
+    letter-spacing: 4px;
 }
 
-.text2{
-
+.text2 {
     position: absolute;
-    top: 430px;
-    margin-left:5%;
-    font-size: 35px;
-    font-weight: 950;
-    font-family: "Barlow condensed";
-    word-spacing: 5px;
-    letter-spacing: 1px;
-    
-
-   
-
-}
-
-.text3{
-
-    position: absolute;
-    top: 462px;
-    margin-left:5%;
-    font-size: 35px;
-    font-weight: 985;
-    font-family: "Barlow condensed";
-    word-spacing: 5px;
-     letter-spacing: 1px;
-   
-
-}
-
-.text4{
-
-    position: absolute;
-    top: 515px;
+    top: 413px;
     margin-left: 5%;
-    font-size: 18px;
-   color: grey;
-   font-family: "Barlow condensed";
-   letter-spacing: 2px;
-
+    font-size: 39px;
+    font-family: "barlow condensed";
+    font-weight: 600;
+    word-spacing: 5px;
 }
 
+.text3 {
+    position: absolute;
+    top: 452px;
+    margin-left: 5%;
+    font-size: 39px;
+    font-family: "barlow condensed";
+    font-weight: 600;
+    word-spacing: 5px;
+}
 
-.text5{
+.text4 {
+    position: absolute;
+    top: 509px;
+    margin-left: 5%;
+    font-family: "barlow condensed";
+    color: grey;
+    font-size: 22px;
+    word-spacing: 3px;
+}
 
+.text5 {
     position: absolute;
     top: 535px;
-    margin-left:5%;
-    font-size: 15px;
+    margin-left: 5%;
+    font-family: "barlow condensed";
     color: grey;
-    font-family: "Barlow condensed";
-    letter-spacing: 2px;
+    font-size: 22px;
+    word-spacing: 3px;
 }
 
-.button2{
-    margin-left:3%;
+.button2 {
+    margin-left: 5%;
     width: 150px;
     height: 40px;
-    background-color: hsl(0, 100%, 68%);
     border: none;
+    background-color:  hsl(0, 100%, 68%);
     border-radius: 5px;
     color: white;
-    top: 563px;
-    font-family: "Barlow condensed";
-    font-weight: bold;
-    position: absolute;
-    letter-spacing: 1px;
-    
-}
-
-
-.button3 {
-    margin-left: 50%;
     font-family: "barlow condensed";
     position: absolute;
-    top: 570px;
+    top: 591px;
+    font-weight: bold;
+}
+
+.button3 {
+    margin-left: 5%;
+    font-family: "barlow condensed";
+    position: absolute;
+    top: 602px;
+    left: 154px;
     background-color: white;
     color: grey;
     border: none;
@@ -153,102 +131,104 @@
     font-weight: lighter;
 }
 
- ol{
-     display: none;
- }
- /* @media screen and (min-width: 1024px;) {
-     .fa-bars{
-         display: none;
-     }
- }
- .image1{
-     position: absolute;
-     top: 150px;
-     right: -230px
-  
-     
-
- }
- ol{
-     list-style: none;
- }
- .header{
-     display: flex;
-     justify-content: space-between;
-     margin-right: -200px;
-     
- }
-     
- .button1{
-     margin-top: -300px;
- }
-
- .fa-bars{
-    font-size: 30px;
-    margin-right: -150%;
+ol {
+    display: none;
 }
-.logo{
+
+body{
+    overflow-x:hidden
+}
+ 
+@media screen and (min-width: 1024px) {
+    .fa-bars{
+        display: none;
+    }
+
+    .image1{
+        position: absolute;
+        top: 236px;
+        right: -237px;
+        width: 65%;
+        height: 65vh;
+        overflow-x:hidden
+    }
+
+    ol{
+        list-style: none;
+    }
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -291px;
+        margin-left: 120px;
+        font-family: "barlow condensed";
+        font-weight: bold;
+
     
-    margin-left: 20px;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -350px;
+        margin-left: 333px;
+        font-family: "barlow condensed";
+        font-weight: bold;
+        color: grey;
+        margin-top: -53px;
+        font-size: 50px;
+    }
+
+    .header3 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -371px;
+        margin-left: 358px;
+        font-family: "barlow condensed";
+        font-weight: bold;
+        color: grey; 
+        margin-top: -26px;
+    }
+    .button1 {
+        margin-top: -152px;
+    }
+
+    .logo{
+        margin-left: 55px;
+    }
+
+    .text1{
+        margin-top: -152px;
+        margin-left: -140px;
+    }
+
+    .text2{
+        margin-top: -151px;
+        font-size: 55px;
+    }
+
+    .text3{
+        font-size: 55px;
+        margin-top: -133px;
+    }
+
+    .text4{
+        margin-top: -100px;
+    }
+
+    .text5{
+        margin-top: -95px;
+    }
+
+    .button2{
+        margin-top: -45px;
+        font-size: 18px;
+    }
+
+    .button3{
+        margin-top: -45px;
+        font-size: 17px;
+    }
 }
-.head{
-    display: flex;
-     justify-content: space-between;
-     padding-top: 30px
-}
-
-.image1{
-    position: absolute;
-    top: 250px;
-}
-.button1 {
-    position: absolute;
-    top:550px;
-    margin-left: 5%;
-    background-color: black;
-    width: 70px;
-    height: 30px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    font-size: 20px;
-    margin-left:20%;
-
-}
-
-
- .text1{
-     top:250px;
-     margin-left: 20%;
- }
-
- .text2{
-
-    position: absolute;
-    top: 300px;
-    margin-left:20%;
-    font-size: 28px;
-    font-weight: 600;
- }
-
- .text3{
-
-    position: absolute;
-    top: 340px;
-    margin-left: 20%;
-    font-size: 30px;
-    font-weight: 600;
-
-}
-.text4{
-    margin-left: 20%;
-    top: 410px;  
-
-}
-
-.text5{
-    margin-left: 20%;
-    top: 445px;  
-}
-
- */
