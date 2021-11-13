@@ -20,18 +20,18 @@
 
 .fa-bars {
     font-size: 30px;
-    margin-right: -85%;
+    margin-right: -75%;
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .image1 {
-    width: 154%;
+    width: 135%;
     position: absolute;
     top: 100px;
-    right: -175px;
+    right: -152px;
     height: 35vh;
     overflow-x:hidden
 
@@ -39,7 +39,7 @@
 
 .button1 {
     position: absolute;
-    top: 373px;
+    top: 450px;
     margin-left: 5%;
     background-color: black;
     color: white;
@@ -53,7 +53,7 @@
 
 .text1 {
     position: absolute;
-    top: 377px;
+    top: 453px;
     left: 26%;
     color: grey;
     font-size: 16px;
@@ -64,17 +64,17 @@
 
 .text2 {
     position: absolute;
-    top: 413px;
+    top: 490px;
     margin-left: 5%;
     font-size: 39px;
     font-family: "barlow condensed";
     font-weight: 600;
-    word-spacing: 5px;
+    word-spacing: 7px;
 }
 
 .text3 {
     position: absolute;
-    top: 452px;
+    top: 528px;
     margin-left: 5%;
     font-size: 39px;
     font-family: "barlow condensed";
@@ -84,27 +84,29 @@
 
 .text4 {
     position: absolute;
-    top: 509px;
+    top: 590px;
     margin-left: 5%;
     font-family: "barlow condensed";
     color: grey;
-    font-size: 22px;
+    font-size: 18px;
     word-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .text5 {
     position: absolute;
-    top: 535px;
+    top: 610px;
     margin-left: 5%;
     font-family: "barlow condensed";
     color: grey;
-    font-size: 22px;
+    font-size: 18px;
     word-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .button2 {
     margin-left: 5%;
-    width: 150px;
+    width: 140px;
     height: 40px;
     border: none;
     background-color:  hsl(0, 100%, 68%);
@@ -112,7 +114,7 @@
     color: white;
     font-family: "barlow condensed";
     position: absolute;
-    top: 591px;
+    top: 680px;
     font-weight: bold;
 }
 
@@ -120,7 +122,7 @@
     margin-left: 5%;
     font-family: "barlow condensed";
     position: absolute;
-    top: 602px;
+    top: 687px;
     left: 154px;
     background-color: white;
     color: grey;
@@ -143,6 +145,8 @@ body{
     .fa-bars{
         display: none;
     }
+}
+
 
     .image1{
         position: absolute;
@@ -160,11 +164,15 @@ body{
 
     .header {
         display: flex;
-        justify-content: space-between;
-        margin-right: -291px;
-        margin-left: 120px;
+        /* justify-content: space-between; */
+        /* margin-right: -350px; */
+        margin-left: 1008px;
         font-family: "barlow condensed";
         font-weight: bold;
+        position: absolute;
+        word-spacing: 30px;
+        letter-spacing: 1px;
+        top: 63px;
 
     
     }
@@ -173,11 +181,11 @@ body{
         display: flex;
         justify-content: space-between;
         margin-right: -350px;
-        margin-left: 333px;
+        margin-left: 1400px;
         font-family: "barlow condensed";
         font-weight: bold;
         color: grey;
-        margin-top: -53px;
+        margin-top: -60px;
         font-size: 50px;
     }
 
@@ -185,7 +193,7 @@ body{
         display: flex;
         justify-content: space-between;
         margin-right: -371px;
-        margin-left: 358px;
+        margin-left: 1415px;
         font-family: "barlow condensed";
         font-weight: bold;
         color: grey; 
